@@ -1,0 +1,33 @@
+.fixedHeader{
+    padding: 0 1rem !important;
+    top: 0;
+    background: linear-gradient(75deg, #4326a7, #4326a7) !important;
+}
+.imge-horoscope{
+    max-width: 35% !important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.astroSignText{
+    margin: 55px !important;
+    text-align: center;
+}
+.astroRange{
+    margin-bottom: 4rem !important;
+}
+.card.border-0.single-promo-card.single-promo-hover.p-2.mt-4.shadow{
+    height: 266.6px;
+}
+.navbar-brand .img-fluid{
+    width: 140px !important;
+}
+.navbar-brand2 .img-fluid{
+    width: 180px !important;
+}
+.hero-slider-content .img-fluid{
+    width: 50% !important;
+}
+.maxWidth-30{
+    max-width: 55% !important;
+}

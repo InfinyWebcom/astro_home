@@ -1,0 +1,126 @@
+/* 
+
+
+@media (min-width: 320px) {
+    .screenshot-wrap .screenshot-frame{
+        height: 85% !important;
+        width: 166px !important;
+        top: 26px!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 166px !important;
+    } 
+    .slick-image{
+        border-radius: 12px !important;
+    }
+}
+
+@media (min-width: 375px) {
+    .screenshot-wrap .screenshot-frame{
+        height: 433px !important;
+        width: 219px !important;
+        top: 26px!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 222px !important;
+    } 
+    .slick-image{
+        border-radius: 12px !important;
+    }
+}
+
+@media (min-width: 360px) {
+    .screenshot-wrap .screenshot-frame{
+        height: 395px !important;
+        width: 195px !important;
+        top: 26px!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 206px !important;
+    } 
+}
+@media (min-width: 411px) {
+    .screenshot-wrap .screenshot-frame{
+        height: 495px !important;
+    width: 250px !important;
+    top: 31px!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 258px !important;
+    } 
+}
+@media (min-width: 576px) {
+    .screenshot-wrap .screenshot-frame{
+        height: 85% !important;
+        width: 197px !important;
+        top: 30px!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 200px !important;
+    } 
+}
+
+@media (min-width: 601px)  {
+    .screenshot-wrap .screenshot-frame{
+        height: 85% !important;
+        width: 129px!important;
+        top: 6%!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 129px !important;
+    }  
+    
+}
+@media (min-width: 768px) {
+    .screenshot-wrap .screenshot-frame{
+        height: 88% !important;
+        width: 184px !important;
+        top: 6%!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 189px !important;
+    }  
+}
+@media (min-width: 992px) { 
+    .screenshot-wrap .screenshot-frame{
+        height: 88% !important;
+        width: 260px !important;
+        top: 6%!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 269px !important;
+    }
+ }
+
+@media (min-width: 1200px) { */
+    /* .screenshot-wrap .screenshot-frame{
+        height: 88% !important;
+        width: 254px !important;
+        top: 6%!important;
+        
+    }
+    .screenshot-wrap .slick-slide{
+        width: 269px !important;
+    }
+} */
+.slick-image {
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+    
+}
+.screenshot-wrap .screenshot-frame{
+    top: 6% !important;
+}

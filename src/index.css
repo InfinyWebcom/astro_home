@@ -1,0 +1,32 @@
+.form-control{
+  height: calc(2.4em + 0.75rem + 2px) !important;
+  font-size: 14px !important;
+}
+ol.list-numeric{
+  list-style-type: decimal;
+}
+.listStyleAlpha{
+  list-style-type: lower-alpha;
+}
+.text-decoration-underline{
+  text-decoration: underline !important;
+}
+li::marker {
+  color: blue !important;
+  font-size: 1.2em !important;
+}
+
+@media screen and (min-width: 1022px) {
+  .hidemargin {
+    margin-top: 125px;
+  }
+}
+
+.vertical-center-one {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
